@@ -27,8 +27,13 @@
     <repository>
         <id>central</id>
         <name>50c7d87e1f55-releases</name>
-        <url>http://artifactory:8081/artifactory/libs-release-local</url>
+        <url>http://artifactory:8081/artifactory/sop</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>50c7d87e1f55-snapshots</name>
+        <url>http://artifactory:8081/artifactory/sop</url>
+    </snapshotRepository>
 </distributionManagement>
 
     <build>
