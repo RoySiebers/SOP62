@@ -27,7 +27,7 @@
     <repository>
         <id>central</id>
         <name>50c7d87e1f55-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
+        <url>http://artifactory:8081/artifactory/libs-release-local</url>
     </repository>
 </distributionManagement>
 
